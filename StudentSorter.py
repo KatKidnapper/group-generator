@@ -2,7 +2,7 @@ import random
 
 def main():
 
-    res=open('Assessment.csv').read().split('\n')[:-1]
+    res=open('Assessment.csv').read().split('\n')[1:-1]
 
     interactions={}
     names=[]
